@@ -29,3 +29,15 @@ or
 
 Sync dependencies with uv  
 >uv sync  
+
+Run tests 
+>pytest tests/test_circle.py -s  
+
+-s shows the print statement printed from tests  
+
+Check linting errors  
+>ruff check .  
+
+Fix fixable errors  
+>ruff check . --fix  
+
