@@ -41,3 +41,13 @@ Check linting errors
 Fix fixable errors  
 >ruff check . --fix  
 
+
+Run tests :  
+Below command will run tests in test_rectangle.py and show messages from print statements  
+>pytest tests/test_rectangle.py -s  
+
+Below command will run only tests that are marked as slow using `@pytest.mark.slow`  
+>pytest tests/test_rectangle.py -m slow  
+
+
+
